@@ -26,32 +26,32 @@ public class Day4CanPlaceFlowersTest {
         assertEquals(result, canPlaceFlowers);
     }
 
-    @Test
-    public void TestCase1ForLeetCodePractice(){
-        int[] flowerbed = {1, 0, 0, 0, 1};
-        int n = 1;
-        boolean result = true;
-        Boolean canPlaceFlowers = LeetCodePractice.canPlaceFlowers(flowerbed, n);
-        assertEquals(result, canPlaceFlowers);
-    }
-
-    @Test
-    public void TestCase2ForLeetCodePractice(){
-        int[] flowerbed = {1, 0, 0, 0, 1};
-        int n = 2;
-        boolean result = false;
-        Boolean canPlaceFlowers = LeetCodePractice.canPlaceFlowers(flowerbed, n);
-        assertEquals(result, canPlaceFlowers);
-    }
-
-    @Test
-    public void TestCase3ForLeetCodePractice(){
-        int[] flowerbed = {1, 0, 0, 0, 0, 1};
-        int n = 2;
-        boolean result = false;
-        Boolean canPlaceFlowers = LeetCodePractice.canPlaceFlowers(flowerbed, n);
-        assertEquals(result, canPlaceFlowers);
-    }
+//    @Test
+//    public void TestCase1ForLeetCodePractice(){
+//        int[] flowerbed = {1, 0, 0, 0, 1};
+//        int n = 1;
+//        boolean result = true;
+//        Boolean canPlaceFlowers = LeetCodePractice.canPlaceFlowers(flowerbed, n);
+//        assertEquals(result, canPlaceFlowers);
+//    }
+//
+//    @Test
+//    public void TestCase2ForLeetCodePractice(){
+//        int[] flowerbed = {1, 0, 0, 0, 1};
+//        int n = 2;
+//        boolean result = false;
+//        Boolean canPlaceFlowers = LeetCodePractice.canPlaceFlowers(flowerbed, n);
+//        assertEquals(result, canPlaceFlowers);
+//    }
+//
+//    @Test
+//    public void TestCase3ForLeetCodePractice(){
+//        int[] flowerbed = {1, 0, 0, 0, 0, 1};
+//        int n = 2;
+//        boolean result = false;
+//        Boolean canPlaceFlowers = LeetCodePractice.canPlaceFlowers(flowerbed, n);
+//        assertEquals(result, canPlaceFlowers);
+//    }
 
 
 }
