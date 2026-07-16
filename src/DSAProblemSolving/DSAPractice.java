@@ -6,12 +6,5 @@ import java.util.List;
 
 public class DSAPractice {
 
-    public static void main(String[] args){
-
-    }
-
-
-
-
 
 }
